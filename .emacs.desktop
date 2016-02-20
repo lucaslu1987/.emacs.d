@@ -1,0 +1,247 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Feb 20 11:57:46 2016
+;; Desktop file format version 206
+;; Emacs version 24.4.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22215 58426 236494 0) (desktop . "206") "lucas@LucasdeMacBook-Pro.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (vertical-scroll-bars) (foreground-color . "#657b83") (background-color . "#fdf6e3") (line-spacing) (left-fringe . 10) (right-fringe . 11) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen) (horizontal-scroll-bars . t) (display-type . color) (background-mode . light) (cursor-color . "#586e75") (environment) (border-color . "#eee8d5") (frameset--id . "7295-1898-C4E2-2D97") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "LucasdeMacBook-Pro.local") (explicit-name) (tool-bar-position . top) (height . 35) (width . 80) (left . 351) (top . 46)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 56) (min-pixel-width . 70) (min-pixel-height-ignore . 42) (min-pixel-width-ignore . 35) (min-pixel-height-safe . 14) (min-pixel-width-safe . 14)) leaf (pixel-width . 581) (pixel-height . 476) (total-width . 83) (total-height . 34) (normal-height . 1.0) (normal-width . 1.0) (buffer "knn.py" (selected . t) (hscroll . 0) (fringes 10 11 nil) (margins 2) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 344) (start . 1))))])
+(setq comint-input-ring nil)
+(setq compile-history nil)
+(setq desktop-missing-file-warning nil)
+(setq dired-regexp-history nil)
+(setq extended-command-history '("line-number-mode" "python-mode" "shell" "shell-mode" "view-emacs-FAQ" "python-mode" "shell" "shell-mode" "open-line" "python-mode" "line-number-mode" "text-mode" "python-mode"))
+(setq face-name-history nil)
+(setq file-name-history '("~/Desktop/webfetch/configure.py" "~/Desktop/adaboost/AdaTrain.py" "~/Desktop/webfetch/serchRet.html" "~/Desktop/webfetch/pieRequest.py" "~/Desktop/webfetch/crew51.py" "~/Desktop/webfetch/run.py" "~/.emacs.d/init.el" "~/pieWeb/pCar/pCarHouse/apps.py" "~/Desktop/gigifun/gigifun/urls.py" "~/pieWeb/pCar/pCarHouse/__init__.py" "~/pieWeb/pCar/pCarHouse/models.py" "~/pieWeb/pCar/pCarHouse/views.py" "~/pieWeb/pCar/pCar/settings.py" "~/pieWeb/pCar/pCarHouse/urls.py" "~/pieCrew/crewCar/crewCar.py" "~/pieWeb/pCar/pCar/urls.py" "~/pieAI/knn.py" "~/Desktop/adaboost/AdaTrain.py" "~/Desktop/webfetch/serchRet.html" "~/Desktop/webfetch/pieRequest.py" "~/Desktop/webfetch/crew51.py" "~/Desktop/webfetch/run.py" "~/.emacs.d/init.el" "~/pieWeb/pCar/pCarHouse/apps.py" "~/Desktop/gigifun/gigifun/urls.py" "~/pieWeb/pCar/pCarHouse/__init__.py" "~/pieWeb/pCar/pCarHouse/models.py" "~/pieWeb/pCar/pCarHouse/views.py" "~/pieWeb/pCar/pCar/settings.py" "~/pieWeb/pCar/pCarHouse/urls.py" "~/pieCrew/crewCar/crewCar.py" "~/pieWeb/pCar/pCar/urls.py" "~/pieAI/knn.py" "~/Desktop/adaboost/AdaTrain.py" "~/Desktop/webfetch/serchRet.html" "~/Desktop/webfetch/pieRequest.py" "~/Desktop/webfetch/crew51.py" "~/Desktop/webfetch/run.py" "~/.emacs.d/init.el" "~/pieWeb/pCar/pCarHouse/apps.py" "~/Desktop/gigifun/gigifun/urls.py" "~/pieWeb/pCar/pCarHouse/__init__.py" "~/pieWeb/pCar/pCarHouse/models.py" "~/pieWeb/pCar/pCarHouse/views.py" "~/pieWeb/pCar/pCar/settings.py" "~/pieWeb/pCar/pCarHouse/urls.py" "~/pieCrew/crewCar/crewCar.py" "~/pieWeb/pCar/pCar/urls.py" "~/pieAI/knn.py" "~/Desktop/adaboost/AdaTrain.py" "~/Desktop/webfetch/serchRet.html" "~/Desktop/webfetch/pieRequest.py" "~/Desktop/webfetch/crew51.py" "~/Desktop/webfetch/run.py" "~/.emacs.d/init.el" "~/pieWeb/pCar/pCarHouse/apps.py" "~/Desktop/gigifun/gigifun/urls.py" "~/pieWeb/pCar/pCarHouse/__init__.py" "~/pieWeb/pCar/pCarHouse/models.py" "~/pieWeb/pCar/pCarHouse/views.py" "~/pieWeb/pCar/pCar/settings.py" "~/pieWeb/pCar/pCarHouse/urls.py" "~/pieCrew/crewCar/crewCar.py" "~/pieWeb/pCar/pCar/urls.py" "~/Desktop/adaboost/AdaTrain.py" "~/Desktop/webfetch/serchRet.html" "~/Desktop/webfetch/pieRequest.py" "~/Desktop/webfetch/crew51.py" "~/Desktop/webfetch/run.py" "~/.emacs.d/init.el" "~/pieWeb/pCar/pCarHouse/apps.py" "~/Desktop/gigifun/gigifun/urls.py" "~/pieWeb/pCar/pCarHouse/__init__.py" "~/pieWeb/pCar/pCarHouse/models.py" "~/pieWeb/pCar/pCarHouse/views.py" "~/pieWeb/pCar/pCar/settings.py" "~/pieWeb/pCar/pCarHouse/urls.py" "~/pieCrew/crewCar/crewCar.py" "~/pieWeb/pCar/pCar/urls.py" "~/pieCrew/crewCar/crewCar.py" "/Users/lucas/pieWeb/pCar/pCar/urls.py" "/Users/lucas/pieWeb/pCar/pCarHouse/urls.py" "/Users/lucas/pieWeb/pCar/pCar/urls.py" "/Users/lucas/pieWeb/pCar/pCar/settings.py" "/Users/lucas/pieWeb/pCar/pCar/urls.py" "/Users/lucas/pieWeb/pCar/pCar/settings.py" "/Users/lucas/pieWeb/pCar/pCarHouse/views.py" "/Users/lucas/pieWeb/pCar/pCarHouse/urls.py" "/Users/lucas/pieWeb/pCar/pCarHouse/__init__.py" "/Users/lucas/pieWeb/pCar/pCar/settings.py" "~/Desktop/gigifun/gigifun/urls.py" "~/pieWeb/pCar/pCar/urls.py" "/Users/lucas/pieWeb/pCar/pCarHouse/models.py" "/Users/lucas/pieWeb/pCar/pCarHouse/views.py" "~/pieWeb/pCar/pCarHouse/apps.py" "~/Desktop/adaboost/AdaTrain.py" "~/Desktop/webfetch/serchRet.html" "~/Desktop/webfetch/pieRequest.py" "~/Desktop/webfetch/crew51.py" "~/Desktop/webfetch/run.py"))
+(setq grep-find-history nil)
+(setq grep-history nil)
+(setq ido-buffer-history '(nil "crew51.py"))
+(setq ido-last-directory-list '(("/Users/lucas/pieWeb/pCar/" . "pCarHouse/")))
+(setq ido-work-directory-list '("/Users/lucas/pieWeb/pCar/pCar/" "/Users/lucas/pieWeb/pCar/pCarHouse/" "/Users/lucas/Desktop/webfetch/"))
+(setq ido-work-file-list '("urls.py" "settings.py" "views.py" "__init__.py" "models.py" "crew51.py" "pieRequest.py" "comint-replace-by-expanded-history" "test.py" "curlTest.py"))
+(setq minibuffer-history '("cur	"))
+(setq org-clock-history nil)
+(setq org-refile-history nil)
+(setq org-tags-history nil)
+(setq query-replace-history nil)
+(setq read-expression-history '("redo"))
+(setq regexp-history nil)
+(setq regexp-search-ring '("\\<url\\>" "\\<print\\>" "print" "prim" "print" "postData postDict" "\\<from\\>" "\\<\n\\>"))
+(setq register-alist '((48 . "    test.fetch_cv('liuWenYao', 'ë”≈ëªØ', cv_info=liuWenYao_optimize_cv)")))
+(setq search-ring nil)
+(setq shell-command-history nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/lucas/pieAI/knn.py"
+  "knn.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  344
+  '(344 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/Desktop/webfetch/configure.py"
+  "configure.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/pieWeb/pCar/pCar/urls.py"
+  "urls.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  799
+  '(799 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/pieCrew/crewCar/crewCar.py"
+  "crewCar.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  164
+  '(164 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/pieWeb/pCar/pCarHouse/urls.py"
+  "urls.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  143
+  '(143 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/pieWeb/pCar/pCar/settings.py"
+  "settings.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  194
+  '(193 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/pieWeb/pCar/pCarHouse/views.py"
+  "views.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  159
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/pieWeb/pCar/pCarHouse/models.py"
+  "models.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  99
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/pieWeb/pCar/pCarHouse/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/Desktop/gigifun/gigifun/urls.py"
+  "urls.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/pieWeb/pCar/pCarHouse/apps.py"
+  "apps.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  135
+  '(135 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode page-break-lines-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode highlight-quoted-mode rainbow-delimiters-mode aggressive-indent-mode eldoc-mode redshank-mode elisp-slime-nav-mode)
+  4565
+  '(5557 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/Desktop/webfetch/run.py"
+  "run.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  630
+  '(629 t)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/Desktop/webfetch/crew51.py"
+  "crew51.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  329
+  '(13086 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/Desktop/webfetch/pieRequest.py"
+  "pieRequest.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  1173
+  '(809 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/Desktop/webfetch/serchRet.html"
+  "serchRet.html"
+  'html-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode highlight-symbol-mode flycheck-mode tagedit-mode rainbow-mode mmm-mode)
+  2
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . utf-8-dos) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/Users/lucas/Desktop/adaboost/AdaTrain.py"
+  "AdaTrain.py"
+  'python-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode flycheck-mode)
+  3729
+  '(3730 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  nil
+  "webfetch"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode diff-hl-dired-mode)
+  849
+  '(nil nil)
+  t
+  '("/Users/lucas/Desktop/webfetch/")
+  '((overwrite-mode)))
+
+(desktop-create-buffer 206
+  nil
+  "*info*"
+  'Info-mode
+  '(anzu-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode whitespace-cleanup-mode auto-compile-on-load-mode linum-mode)
+  1455
+  '(nil nil)
+  t
+  '("/Applications/Emacs.app/Contents/Resources/info/efaq" "Top" nil)
+  '((show-trailing-whitespace) (tab-width . 8) (buffer-file-coding-system . utf-8-unix) (case-fold-search . t)))
+

@@ -1,0 +1,26 @@
+;;; Automatically generated on Sat Feb 20 11:57:46 2016
+;;; Invoked by lucas@LucasdeMacBook-Pro.local using 24.4.1
+(setq-default kill-ring '(#("e" 0 1 (face font-lock-comment-face fontified t)) #("l" 0 1 (face font-lock-comment-face fontified t)) #("b" 0 1 (face font-lock-comment-face fontified t)) #("u" 0 1 (face font-lock-comment-face fontified t)) #("o" 0 1 (face font-lock-comment-face fontified t)) #("d" 0 1 (face font-lock-comment-face fontified t)) "
+Sy"))
+(setq-default session-file-alist '(("~/pieAI/knn.py" 344 344 1 nil nil 810 (overwrite-mode)) ("~/pieWeb/pCar/pCar/urls.py" 744 729 1 nil nil 745 (overwrite-mode)) ("~/pieCrew/crewCar/crewCar.py" 164 164 1 nil nil 164 (overwrite-mode)) ("~/pieWeb/pCar/pCarHouse/urls.py" 143 143 1 nil nil 96 (overwrite-mode)) ("~/pieWeb/pCar/pCar/settings.py" 194 193 1 nil nil 194 (overwrite-mode)) ("~/pieWeb/pCar/pCarHouse/views.py" 159 1 1 nil nil 161 (overwrite-mode)) ("~/pieWeb/pCar/pCarHouse/models.py" 99 nil 1 nil nil 99 (overwrite-mode)) ("~/Desktop/webfetch/pieRequest.py" 1173 809 1 nil nil 1535 (overwrite-mode)) ("~/Desktop/webfetch/serchRet.html" 2 nil 1 nil nil 103879 (overwrite-mode)) ("~/.emacs.d/init.el" 5582 5557 1 nil nil 5583 (overwrite-mode)) ("~/Desktop/webfetch/run.py" 629 629 1 nil nil 1513 (overwrite-mode)) ("~/Desktop/webfetch/crew51.py" 329 13086 1 nil nil 3545 (overwrite-mode)) ("~/Desktop/webfetch/test.py" 2246 2246 1 nil nil 1974 (overwrite-mode)) ("~/Desktop/adaboost/AdaTrain.py" 39 1 1 nil nil 35 (overwrite-mode)) ("~/Desktop/webfetch/CvFetch.py" 626 626 1 nil nil 3635 (overwrite-mode)) ("~/Desktop/webfetch/curlTest.py" 1099 1099 1 nil nil 1099 (overwrite-mode)) ("~/.emacs.d/custom.el" 1 nil 1 nil nil 642 (overwrite-mode))))
+(setq-default file-name-history '("~/Desktop/webfetch/configure.py" "~/Desktop/adaboost/AdaTrain.py" "~/Desktop/webfetch/serchRet.html" "~/Desktop/webfetch/pieRequest.py" "~/Desktop/webfetch/crew51.py" "~/Desktop/webfetch/run.py" "~/.emacs.d/init.el" "~/pieWeb/pCar/pCarHouse/apps.py" "~/Desktop/gigifun/gigifun/urls.py" "~/pieWeb/pCar/pCarHouse/__init__.py" "~/pieWeb/pCar/pCarHouse/models.py" "~/pieWeb/pCar/pCarHouse/views.py" "~/pieWeb/pCar/pCar/settings.py" "~/pieWeb/pCar/pCarHouse/urls.py" "~/pieCrew/crewCar/crewCar.py" "~/pieWeb/pCar/pCar/urls.py" "~/pieAI/knn.py" "/Users/lucas/pieWeb/pCar/pCar/urls.py" "/Users/lucas/pieWeb/pCar/pCarHouse/urls.py" "/Users/lucas/pieWeb/pCar/pCar/settings.py" "/Users/lucas/pieWeb/pCar/pCarHouse/views.py" "/Users/lucas/pieWeb/pCar/pCarHouse/__init__.py" "/Users/lucas/pieWeb/pCar/pCarHouse/models.py"))
+(setq-default regexp-search-ring '("\\<url\\>" "\\<print\\>" "print" "prim" "postData postDict" "\\<from\\>" "\\<
+\\>"))
+(setq-default buffer-name-history '("crew51.py"))
+(setq-default command-history '((evil-delete 689 706 (quote line) nil nil) (find-file "/Users/lucas/pieWeb/pCar/pCar/urls.py") (find-file "/Users/lucas/pieWeb/pCar/pCarHouse/urls.py") (find-file "/Users/lucas/pieWeb/pCar/pCar/settings.py") (find-file "/Users/lucas/pieWeb/pCar/pCarHouse/views.py") (find-file "/Users/lucas/pieWeb/pCar/pCarHouse/__init__.py") (find-file "/Users/lucas/pieWeb/pCar/pCarHouse/models.py") (line-number-mode (quote toggle))))
+(setq-default evil-ex-history '(#("w" 0 1 (ex-index 1)) #("q!" 0 1 (ex-index 1) 1 2 (ex-index 2)) #("qw" 0 1 (ex-index 1) 1 2 (ex-index 2)) #("w
+" 0 1 (ex-index 1) 1 2 (ex-index 2)) #("sw" 0 1 (ex-index 1) 1 2 (ex-index 2)) #("57" 0 1 (ex-index 1) 1 2 (ex-index 2)) #("W" 0 1 (ex-index 1)) #("wq" 0 1 (ex-index 1) 1 2 (ex-index 2)) #("w3" 0 1 (ex-index 1) 1 2 (ex-index 2)) #("e" 0 1 (ex-index 1)) #("ew" 0 1 (ex-index 1) 1 2 (ex-index 2)) #(":w" 0 1 (ex-index 1) 1 2 (ex-index 2)) #("q!" 0 1 (ex-index 1380) 1 2 (ex-index 1381)) #("wq" 0 1 (ex-index 1380) 1 2 (ex-index 1381))))
+(setq-default evil-search-backward-history '("\\<url\\>" "\\<print\\>" "\\<from\\>" "\\<
+\\>"))
+(setq-default evil-search-forward-history '("print" "prim" "postData postDict"))
+(setq-default extended-command-history '("line-number-mode" "python-mode" "shell" "shell-mode" "view-emacs-FAQ" "open-line" "text-mode"))
+(setq-default ido-buffer-history '(nil "crew51.py"))
+(setq-default ido-file-history '("urls.py" "settings.py" "views.py" "__init__.py" "models.py" "crew51.py" "pieRequest.py" "comint-replace-by-expanded-history" nil "test.py" "curlTest.py" "CvFetch.py"))
+(setq-default minibuffer-history '("cur	"))
+(setq-default occur-collect-regexp-history '("\\1"))
+(setq-default read-expression-history '("redo"))
+(setq-default serial-name-history '("/dev/ttys0"))
+(setq-default serial-speed-history '("9600" "1200" "2400" "4800" "14400" "19200" "28800" "38400" "57600" "115200"))
+(setq-default slime-connect-host-history '("127.0.0.1"))
+(setq-default slime-connect-port-history '("4005"))
+(setq-default smex-history '(line-number-mode python-mode shell view-emacs-FAQ open-line text-mode cd))
