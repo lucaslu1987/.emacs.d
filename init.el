@@ -30,7 +30,6 @@
 (setq linum-format "%d ") ;set format
 
 
-
 (add-to-list 'load-path "~/.emacs.d/lisp/yasnippet")
 (require 'yasnippet)
 (yas/global-mode 1)
@@ -42,4 +41,14 @@
 (ac-config-default)
 (global-auto-complete-mode t)
 
+;; close the startup view
+(setq inhibit-startup-message t)
+(setq gnus-inhibit-startup-message t)
 
+;; require the windows number
+(add-to-list 'load-path "~/.emacs.d/lisp")
+(require 'window-numbering)
+(window-numbering-mode 1)
+
+(require 'evil-leader)
+(global-evil-leader-mode)
