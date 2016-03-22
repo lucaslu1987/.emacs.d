@@ -498,7 +498,8 @@
   (setq ac-sources (append '(ac-source-features ac-source-functions ac-source-yasnippet ac-source-variables ac-source-symbols) ac-sources)))
 
 (defun ac-cc-mode-setup ()
-  (setq ac-sources (append '(ac-source-yasnippet ac-source-gtags) ac-sources)))
+  (setq ac-sources (append '(ac-source-yasnippet) ac-sources)))
+  ;(setq ac-sources (append '(ac-source-yasnippet ac-source-gtags) ac-sources)))
 
 (defun ac-ruby-mode-setup ())
 

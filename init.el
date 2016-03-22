@@ -52,3 +52,8 @@
 
 (require 'evil-leader)
 (global-evil-leader-mode)
+
+
+;; forbid auto backup
+(setq make-backup-files nil)
+(setq backup-directory-alist (quote (("." . "~/.backups"))))
