@@ -1,4 +1,4 @@
-;; This file is only for windows 7/8/8.1
+;; This file is only for windows 6/8/8.1
 ;; The only thing it does is to set the HOME directories for emacs,
 ;; then trigger the init.el in the directory specified by HOME to
 ;; accomplish the true initialization
@@ -12,6 +12,11 @@
 (require 'evil)
 (evil-mode 1)
 
+;;; configure the start frame size
+(set-frame-position (selected-frame) 0 0)
+(set-frame-width (selected-frame) 100)
+(set-frame-height (selected-frame) 33)
+
 ;; the theme manager
 ;(add-to-list 'load-path "~/.emacs.d/themes")
 ;(add-to-list 'custom-theme-load-path "~/.emacs.d/themes") 
@@ -20,8 +25,9 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/emacs-color-theme-solarized")
 (load-theme 'solarized t)
 
-(setq c-default-style "linux"
-          c-basic-offset 4)
+
+(require 'init-cc-mode)
+;;(require 'init-org-mode)
 
 (require 'ido)
 (ido-mode t)
