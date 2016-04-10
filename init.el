@@ -27,7 +27,13 @@
 
 
 (require 'init-cc-mode)
-;;(require 'init-org-mode)
+(require 'init-org-mode)
+(require 'flymake)
+
+(require 'ace-jump-mode)
+(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+
+
 
 (require 'ido)
 (ido-mode t)
