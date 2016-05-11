@@ -42,6 +42,35 @@
 (setq linum-format "%d ") ;set format
 
 
+;; python configure
+(require 'python)                                                                                                
+(add-to-list 'auto-mode-alist '("\\.py\\'" . python-mode))                                                       
+ (setq
+  python-shell-interpreter "ipython"
+  python-shell-interpreter-args ""
+  python-shell-prompt-regexp "In \\[[0-9]+\\]: "
+  python-shell-prompt-output-regexp "Out\\[[0-9]+\\]: "
+  python-shell-completion-setup-code
+    "from IPython.core.completerlib import module_completion"
+  python-shell-completion-module-string-code
+    "';'.join(module_completion('''%s'''))\n"
+  python-shell-completion-string-code
+    "';'.join(get_ipython().Completer.all_completions('''%s'''))\n")
+
+(add-to-list 'load-path "~./emacs.d/lisp")
+(require 'pymacs)
+;; Initialize Pymacs
+(autoload 'pymacs-apply "pymacs")
+(autoload 'pymacs-call "pymacs")
+(autoload 'pymacs-eval "pymacs" nil t)
+(autoload 'pymacs-exec "pymacs" nil t)
+(autoload 'pymacs-load "pymacs" nil t)
+;; Initialize Rope                                                                                             
+(pymacs-load "ropemacs" "rope-")
+(setq ropemacs-enable-autoimport t)
+
+
+
 (add-to-list 'load-path "~/.emacs.d/lisp/yasnippet")
 (require 'yasnippet)
 (yas/global-mode 1)
@@ -50,8 +79,44 @@
 (require 'auto-complete)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/lisp/auto-complete-1.5.0/dict")
 (require 'auto-complete-config)
+(require 'auto-complete-clang)
 (ac-config-default)
-(global-auto-complete-mode t)
+
+;;(setq ac-auto-start nil)
+(setq ac-quick-help-delay 0.5)
+;; (ac-set-trigger-key "TAB")
+;; (define-key ac-mode-map  [(control tab)] 'auto-complete)
+(define-key ac-mode-map  [(control tab)] 'auto-complete)
+(defun my-ac-config ()
+	(setq ac-clang-flags
+	      (mapcar (lambda (item)(concat "-I" item))
+	              (split-string
+	               "
+                 /usr/local/include
+                 /usr/include   
+	"
+               )))	
+  (setq-default ac-sources '(ac-source-abbrev ac-source-dictionary ac-source-words-in-same-mode-buffers))
+  (add-hook 'emacs-lisp-mode-hook 'ac-emacs-lisp-mode-setup)
+  ;; (add-hook 'c-mode-common-hook 'ac-cc-mode-setup)
+  (add-hook 'ruby-mode-hook 'ac-ruby-mode-setup)
+  (add-hook 'css-mode-hook 'ac-css-mode-setup)
+  (add-hook 'auto-complete-mode-hook 'ac-common-setup)
+  ;;(add-hook 'python-mode-hook        (lambda () (add-to-list 'ac-omni-completion-sources (cons "\\." '(ac-source-ropemacs)))  ))  
+  (global-auto-complete-mode t))
+(defun my-ac-cc-mode-setup ()
+  (setq ac-sources (append '(ac-source-clang ac-source-yasnippet) ac-sources)))
+
+(add-hook 'c-mode-common-hook 'my-ac-cc-mode-setup)
+;; ac-source-gtags
+(my-ac-config)
+
+
+
+
+
+
+
 
 ;; close the startup view
 (setq inhibit-startup-message t)
