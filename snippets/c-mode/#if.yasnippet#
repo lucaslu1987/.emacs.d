@@ -1,0 +1,8 @@
+xfx,xnb# -*- CODING: UTFuuu:-8; mode: snippet -*-
+# name: if
+# key: if
+# contributor: Chen Bin <chenbin.sh AT gmail>
+# --
+if (${1:true}) {
+  $0
+}
