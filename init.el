@@ -20,7 +20,7 @@
 (require 'init-frame)
 (require 'init-ibuffer)
 (require 'init-theme)
-;(require 'init-org)
+(require 'init-org)
 (require 'init-org-mime)
 (require 'init-windows)
 (require 'init-auto-complete)

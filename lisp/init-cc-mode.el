@@ -30,6 +30,7 @@
 (defun my-common-cc-mode-setup ()
   "setup shared by all languages (java/groovy/c++ ...)"
   (setq c-basic-offset 4)
+  (setq default-tab-width 4)
   ;; give me NO newline automatically after electric expressions are entered
   (setq c-auto-newline nil)
 
@@ -86,7 +87,7 @@
 
 ;; donot use c-mode-common-hook or cc-mode-hook because many major-modes use this hook
 (defun c-mode-common-hook-setup ()
-  (unless (is-buffer-file-temp)
+  (unless nil
     (my-common-cc-mode-setup)
     (unless (or (derived-mode-p 'java-mode) (derived-mode-p 'groovy-mode))
       (my-c-mode-setup))

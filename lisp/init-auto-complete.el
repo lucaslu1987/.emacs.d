@@ -9,7 +9,7 @@
 (setq ac-auto-start t)
 (setq ac-quick-help-delay 0.5)
 ;; (ac-set-trigger-key "TAB")
-(define-key ac-mode-map  [(tab)] 'auto-complete)
+(define-key ac-mode-map  [(control tab)] 'auto-complete)
 
 (defun my-ac-config ()
 	(setq ac-clang-flags
