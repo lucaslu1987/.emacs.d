@@ -20,10 +20,12 @@
 (require 'init-frame)
 (require 'init-ibuffer)
 (require 'init-theme)
+;(require 'init-flyspell)
 (require 'init-org)
 (require 'init-org-mime)
 (require 'init-windows)
 (require 'init-auto-complete)
+;(require 'init-company)
 (require 'init-yasnippet)
 (require 'init-cc-mode)
 (require 'init-sr-speedbar)
@@ -31,6 +33,7 @@
 (require 'init-ido)
 (require 'init-evil)
 (require 'init-gtags)
+
 
 (require 'init-smex)
 

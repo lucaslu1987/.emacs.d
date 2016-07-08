@@ -152,17 +152,17 @@
 (defun org-mode-hook-setup ()
   (setq evil-auto-indent nil)
   ;; org-mode's own flycheck will be loaded
-  (enable-flyspell-mode-conditionally)
+  ;;(enable-flyspell-mode-conditionally)
 
   ;; but I don't want to auto spell check when typing,
   ;; please comment out `(flyspell-mode -1)` if you prefer auto spell check
-  (flyspell-mode -1)
+  ;;(flyspell-mode -1)
 
   ;; for some reason, org8 disable odt export by default
   (add-to-list 'org-export-backends 'odt)
 
   ;; don't spell check double words
-  (setq flyspell-check-doublon nil)
+  ;;(setq flyspell-check-doublon nil)
 
   ;; display wrapped lines instead of truncated lines
   (setq truncate-lines nil)
