@@ -12,7 +12,7 @@
 
 ;; set exec-path
 ;;(setq "PATH" (concat "/usr/local/bin;" (getenv "PATH")))
-;;(setq exec-path (append exec-path '("/usr/local/bin")))
+(setq exec-path (append exec-path '("/usr/local/bin")))
 
 (require 'init-base-lisp)
 (require 'init-utils)
@@ -24,8 +24,8 @@
 (require 'init-org)
 (require 'init-org-mime)
 (require 'init-windows)
-(require 'init-auto-complete)
-;(require 'init-company)
+;(require 'init-auto-complete)
+(require 'init-company)
 (require 'init-yasnippet)
 (require 'init-cc-mode)
 (require 'init-sr-speedbar)
