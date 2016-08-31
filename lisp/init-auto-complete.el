@@ -9,7 +9,7 @@
 (setq ac-auto-start t)
 (setq ac-quick-help-delay 0.5)
 ;; (ac-set-trigger-key "TAB")
-(define-key ac-mode-map  [(control tab)] 'auto-complete)
+(define-key ac-mode-map  [(backtab)] 'ac-complete-clang)
 
 (defun my-ac-config ()
 	(setq ac-clang-flags
@@ -29,7 +29,8 @@
   ;;(add-hook 'python-mode-hook        (lambda () (add-to-list 'ac-omni-completion-sources (cons "\\." '(ac-source-ropemacs)))  ))  
   (global-auto-complete-mode t))
 (defun my-ac-cc-mode-setup ()
-  (setq ac-sources (append '(ac-source-clang ac-source-yasnippet) ac-sources)))
+  (setq ac-sources (append '(ac-source-yasnippet) ac-sources))
+  (setq ac-sources (append '(ac-source-filename ac-source-files-in-current-dir) ac-sources)))
 
 (add-hook 'c-mode-common-hook 'my-ac-cc-mode-setup)
 ;; ac-source-gtags
